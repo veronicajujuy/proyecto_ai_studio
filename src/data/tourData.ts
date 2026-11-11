@@ -1,3 +1,7 @@
+import salinasImg from '../assets/images/itinerary_salinas_grandes_1794435884862.jpg';
+import tilcaraImg from '../assets/images/itinerary_tilcara_pucara_1794435886180.jpg';
+import hornocalImg from '../assets/images/itinerary_hornocal_14_colores_1794435886096.jpg';
+
 export interface ItineraryDay {
   dayNumber: number;
   title: string;
@@ -34,7 +38,7 @@ export const ITINERARY: ItineraryDay[] = [
     dayNumber: 1,
     title: 'Purmamarca, Los Colorados & Salinas Grandes',
     subtitle: 'El despertar entre tonos ocres y el mar blanco a 3.450 metros',
-    heroImage: '/src/assets/images/itinerary_salinas_grandes_1794435884862.jpg',
+    heroImage: salinasImg,
     imageAlt: 'Salinas Grandes con piletón de agua turquesa bajo el cielo andino',
     altitudeRange: '2.190 msnm a 3.450 msnm (Paso Lipán: 4.170 msnm)',
     totalDistance: '140 km ida y vuelta por RN 52 asfaltada',
@@ -96,7 +100,7 @@ export const ITINERARY: ItineraryDay[] = [
     dayNumber: 2,
     title: 'Tilcara, Fortaleza de Pucará & Huacalera',
     subtitle: 'Arqueología preincaica, cañones milenarios y cruce del Trópico',
-    heroImage: '/src/assets/images/itinerary_tilcara_pucara_1794435886180.jpg',
+    heroImage: tilcaraImg,
     imageAlt: 'Ruinas de piedra del Pucará de Tilcara rodeadas de cardones',
     altitudeRange: '2.460 msnm a 2.700 msnm',
     totalDistance: '45 km sobre RN 9',
@@ -158,7 +162,7 @@ export const ITINERARY: ItineraryDay[] = [
     dayNumber: 3,
     title: 'Humahuaca, Uquía & Serranía del Hornocal',
     subtitle: 'Ángeles arcabuceros, arcillas rojas y los 14 colores a 4.350m',
-    heroImage: '/src/assets/images/itinerary_hornocal_14_colores_1794435886096.jpg',
+    heroImage: hornocalImg,
     imageAlt: 'Serranía del Hornocal con crestas triangulares de 14 colores',
     altitudeRange: '2.800 msnm a 4.350 msnm (Mirador Hornocal)',
     totalDistance: '90 km combinando asfalto y ripio consolidado',

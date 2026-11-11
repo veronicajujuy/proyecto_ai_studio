@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageCircle, MapPin, Calendar, Mountain, ShieldCheck, Sun } from 'lucide-react';
+import heroCerroImg from '../assets/images/hero_cerro_siete_colores_1794435884621.jpg';
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -14,7 +15,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           {/* Background Image of Cerro de los Siete Colores */}
           <div className="relative w-full h-[520px] sm:h-[580px] lg:h-[640px]">
             <img
-              src="/src/assets/images/hero_cerro_siete_colores_1794435884621.jpg"
+              src={heroCerroImg}
               alt="Panorámica del Cerro de los Siete Colores en Purmamarca, Quebrada de Humahuaca, Jujuy"
               className="w-full h-full object-cover object-center"
               referrerPolicy="no-referrer"
