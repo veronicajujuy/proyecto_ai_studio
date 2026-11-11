@@ -1,0 +1,6 @@
+{
+  "name": "Escapada Quebrada de Humahuaca",
+  "description": "Itinerario de 3 días por la Quebrada de Humahuaca: Purmamarca, Tilcara, Salinas Grandes, Hornocal, lista de mochila interactiva y reservas directas por WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

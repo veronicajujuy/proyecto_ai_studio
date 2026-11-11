@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, Cambria, serif;
+
+  --color-sand-50: #FAF7F2;
+  --color-sand-100: #F4EFE6;
+  --color-sand-200: #E8DDCC;
+  --color-sand-300: #DAC9B0;
+  
+  --color-earth-800: #3B2E24;
+  --color-earth-900: #292019;
+  
+  --color-terracotta-500: #C85A32;
+  --color-terracotta-600: #B04823;
+  --color-terracotta-700: #8E3615;
+
+  --color-ochre-400: #E69D43;
+  --color-ochre-500: #D2812A;
+  --color-ochre-600: #B46416;
+
+  --color-cardon-600: #4B634E;
+  --color-cardon-700: #3B4F3E;
+}
+
+/* Custom scrollbar and smooth utilities */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--font-display);
+}
